@@ -15,6 +15,7 @@ export const path = {
     images: `${buildFolder}/images/`,
     fonts: `${buildFolder}/fonts/`,
     files: `${buildFolder}/files/`,
+    video: `${buildFolder}/video/`,
     // json: project_folder + '/json/',
   },
   src: {
@@ -26,8 +27,9 @@ export const path = {
     html: `${srcFolder}/*.html`, //.pug
     files: `${srcFolder}/files/**/*.*`,
     svgicons: `${srcFolder}/svgicons/*.svg`,
-    wowJs: 'node_modules/wowjs/dist/wow.js',
-    wowCss: 'node_modules/animate.css/animate.css',
+    video: `${srcFolder}/video/**/*.*`,
+    wowJs: "node_modules/wowjs/dist/wow.js",
+    wowCss: "node_modules/animate.css/animate.css",
     // slickCss: 'node_modules/slick-carousel/slick/slick.css',
     // slickJs: 'node_modules/slick-carousel/slick/slick.js',
     // swiperCss: 'node_modules/swiper/swiper.min.css',
@@ -47,4 +49,4 @@ export const path = {
   srcFolder: srcFolder,
   rootFolder: rootFolder,
   ftp: ``, // указать имя папки (если нужно) куда выгрузяться файлы на FTP
-}
+};
