@@ -16,6 +16,7 @@ export const path = {
     fonts: `${buildFolder}/fonts/`,
     files: `${buildFolder}/files/`,
     video: `${buildFolder}/video/`,
+    json: `${buildFolder}/json/`,
     // json: project_folder + '/json/',
   },
   src: {
@@ -28,6 +29,7 @@ export const path = {
     files: `${srcFolder}/files/**/*.*`,
     svgicons: `${srcFolder}/svgicons/*.svg`,
     video: `${srcFolder}/video/**/*.*`,
+    json: `${srcFolder}/json/*.*`,
     wowJs: "node_modules/wowjs/dist/wow.js",
     wowCss: "node_modules/animate.css/animate.css",
     // slickCss: 'node_modules/slick-carousel/slick/slick.css',
@@ -41,6 +43,7 @@ export const path = {
     scss: `${srcFolder}/scss/**/*.scss`,
     html: `${srcFolder}/**/*.html`, //.pug
     images: `${srcFolder}/images/**/*.{jpg,jpeg,png,svg,gif,ico,webp}`,
+    json: `${srcFolder}/json/*.*`,
     files: `${srcFolder}/files/**/*.*`,
     // json: source_folder + '/json/*.*',
   },

@@ -23,6 +23,7 @@ import { js } from './gulp/tasks/js.js'
 import { images } from './gulp/tasks/images.js'
 import { otfToTtf, ttfToWoff, fontsStyle } from './gulp/tasks/fonts.js'
 import { svgSprive } from './gulp/tasks/svgSprive.js'
+import { json } from "./gulp/tasks/json.js";
 import { video } from "./gulp/tasks/video.js";
 import { zip } from './gulp/tasks/zip.js'
 import { ftp } from './gulp/tasks/ftp.js'
@@ -50,7 +51,7 @@ const libs = gulp.parallel(libsJs, libsCss)
 // Основные задачи
 const mainTasks = gulp.series(
   fonts,
-  gulp.parallel(copy, html, scss, js, libs, images, video)
+  gulp.parallel(copy, html, scss, js, json, libs, images, video)
 );
 
 // Построение сценариеев выполнения задач
